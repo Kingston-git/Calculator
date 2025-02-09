@@ -1,17 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title> 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
 </head>
 <body>
-     <Div class="wrapper">
+     <div class="wrapper">
         <div class="container">
             <h1>Basic Calculator!</h1>
         <div class="row">
-         <input type="text" name="result" placeholder="Solve" class="result" id="result" value="" readonly />
+         <input type="text" name="result" placeholder="Result" class="result" id="result" value="" readonly />
          <input type="button" value="+" onclick="setScreenValue('+')"/>
          <Input type="button" value="1" onclick="setScreenValue('1')"/>
          <input type="button" value="2" onclick="setScreenValue('2')"/>
@@ -28,7 +28,7 @@
         <input type="button" value="7" onclick="setScreenValue('7')"/>
         <input type="button" value="8" onclick="setScreenValue('8')"/>
         <input type="button" value="9" onclick="setScreenValue('9')"/>
-        <input type="button" value="x" onclick="setScreenValue('x')"/>
+        <input type="button" value="x" onclick="setScreenValue('*')"/>
         </div>
     <div class="row">
         <input type="button" value="%" onclick="setScreenValue('%')"/>
